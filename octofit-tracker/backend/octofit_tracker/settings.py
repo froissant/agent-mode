@@ -89,6 +89,7 @@ INSTALLED_APPS += [
 ]
 
 MIDDLEWARE.insert(1, 'corsheaders.middleware.CorsMiddleware')
+
 CORS_ALLOW_ALL_ORIGINS = True
 ALLOWED_HOSTS = ['*']
 
